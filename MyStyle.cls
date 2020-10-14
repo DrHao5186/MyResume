@@ -128,14 +128,14 @@
 % \titleformat{<command>}[<shape>]{<format>}{<label>}{<sep>}{<before>}[<after>]
 \newcommand*{\cvsection}[1]{\section*{#1}}
 \titleformat{\section}%
-	{\color{sectioncolor}\normalfont\bfseries\LARGE}{}{0pt}{}
+	{\color{sectioncolor}\normalfont\bfseries\large}{}{0pt}{}
 % grey subsection style for right column
 \titleformat{\subsection}%
 	{\color{subsectioncolor}\normalfont\large}{}{0pt}{}
 % abuse subsubsection as profilesection in left column
 \newcommand*{\profilesection}[1]{\subsubsection*{#1}}
 \titleformat{\subsubsection}
-	{\color{pseccolor}\normalfont\LARGE}{}{0pt}{\color{pseccolor}\sectionline}
+	{\color{pseccolor}\normalfont\large}{}{0pt}{\color{pseccolor}\sectionline}
 % set spaces before and after profilesections: <left><before><after>
 % "starred version kills the indentation of the paragraph following the title"
 \titlespacing*{\subsubsection}{0pt}{1ex}{1ex}
