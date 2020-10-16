@@ -52,11 +52,7 @@
 % your name
 \cvname{吕世豪}
 % job title/career
-\cvjobtitle{2021届硕士毕业生}
-% date of birth
-\cvbirthday{1995年3月4日}
-% short address/location, use \newline if more than 1 line is required
-\cvaddress{河南新乡}
+\cvjobtitle{计算机科学与技术硕士}
 % phone number
 \cvphone{+86 186 2132 4369}
 % email address
@@ -66,30 +62,30 @@
 
 % add more profile sections to sidebar on first page
 \addtofrontsidebar{
-	% include gosquare national flags from https://github.com/gosquared/flags;
 	% naming according to ISO 3166-1 alpha-2 country codes
     \profilesection{外语能力}
 	    \barskill{\faBalanceScale}{大学英语四级}{70}
 
     \profilesection{编程能力}
-        \begin{figure}\centering
-            \smartdiagram[bubble diagram]{
-                \textcolor{white}{\textbf{编程}} \\ 
-                \textcolor{white}{\textbf{能力}}, 
-                \textcolor{black!90}{Python},
-                \textcolor{black!90}{Java},
-                \textcolor{black!90}{C++},
-                \textcolor{black!90}{SQL},
-                \textcolor{black!90}{H5}
-            }
-        \end{figure}
+        \pointskill{\faCompress}{Python}{5}
 		\pointskill{\faCompress}{Django}{5}
 		\pointskill{\faCompress}{SQLite}{5}
-		\pointskill{\faCompress}{SQLAlchemy}{5}
+        \pointskill{\faCompress}{SQLAlchemy}{5}
+		\pointskill{\faCompress}{Java}{5}
 		\pointskill{\faCompress}{Flask}{4}
-		\pointskill{\faCompress}{Docker}{4}
-		\pointskill{\faCompress}{Spark}{4}
-        \pointskill{\faCompress}{VUE}{4}
+		\pointskill{\faCompress}{Spark}{5}
+        \pointskill{\faCompress}{Maven}{4}
+		\pointskill{\faCompress}{MongoDB}{4}
+		\pointskill{\faCompress}{Linux}{5}
+		\pointskill{\faCompress}{Docker}{5}
+
+    \profilesection{获奖情况}
+        \cvitem{2017}{校级奖学金二等奖}{}{}
+        \cvitem{2017}{校级优秀学生}{}{}
+        \cvitem{2018}{本科校级优秀毕业生}{}{}
+        \cvitem{2018}{校级奖学金三等奖}{}{}
+        \cvitem{2019}{校级优秀学生}{}{}
+
 }
 
 %-------------------------------------------------------------------------------
@@ -101,47 +97,45 @@
 
 \cvsection{教育背景}
 
-    \subsection{本科经历}
-    \begin{cvtable}
-        \cvitem{2014 -- 2018}{辽宁工程技术大学}{}{}
-        \cvitem{}{}{}{}
-        \cvitem{2014 -- 2016}{理科实验班}{}
-            {全校前30进入实验班。主修课程Matlab、数值分析、高等代数、数学分析等，           为培养计算机编程能力打下坚实基础。}
-        \cvitem{2016 -- 2018}{计算机科学与技术}{}
-            {主修课程Java、数据库原理、数据结构、操作系统、计算机组成原理
-            等。奠定了坚实的计算机原理知识基础。}
-    \end{cvtable}
-
     \subsection{研究生经历}
     \begin{cvtable}
-        \cvitem{2018 -- 2021}{上海海事大学}{}
-            {主修课程算法与复杂性、计算机网络与数据通讯、数字图像处理、模式识别、物联网
-            技术、量子智能计算等。培养了个人自主学习能力，并结合项目实践进一步综合提升了
-            个人自主研发能力。}
+        \cvitem{2018 -- 2021}{上海海事大学}{GPA:前10$\%$}
+            {主修课程算法与复杂性、计算机网络与数据通讯、数字图像处理、
+            模式识别、物联网技术、量子智能计算等。培养了个人自主学习能
+            力，并结合项目实践进一步综合提升了个人自主研发能力。}
+    \end{cvtable}
+
+    \subsection{本科经历}
+    \begin{cvtable}
+        \cvitem{2014 -- 2018}{辽宁工程技术大学}{GPA:前5$\%$}
+            {理科实验班(前两年):全校前30进入实验班。主修课程Matlab、数值分析、高等代数、
+            数学分析等，为培养计算机编程能力打下坚实基础;计算机科学与技术(后两年):主修课
+            程Java、数据库原理、数据结构、操作系统、计算机组成原理等。奠定了坚实
+            的计算机原理知识基础。}
     \end{cvtable}
 
 \cvsection{项目经验}
     \begin{cvtable}
         \cvitem{2017 -- 2018}{人脸识别签到系统开发}{个人自主研发}
-            {该项目基于大学生上课考勤状况，而针对与人脸识别模型的学习与研究，从而
-            开发人脸识别系统。使用到的技术有Haar+Adaboost、CNN、CART、Django、
-            SQLite、SQLAlchemy、Docker、Tensorflow等}
+            {该项目基于大学生上课考勤状况，而针对与人脸识别模型的学习
+            与研究，开发人脸识别系统。通过该项目学习到的相关技术有：
+            Haar+Adaboost、CNN、CART、Django、SQLite、
+            SQLAlchemy、Docker、Tensorflow等}
         \cvitem{2018 -- 2021}{特殊生物资源检测与溯源技术研究}{国家重点研发}
-            {该项目为国家重点研发项目，作为主要参与人员，负责该项目的特殊生物X射线
-            特征提取与识别工作。使用到的技术有Faster-RCNN、YOLO、RandomForest、
-            Pytorch等}
+            {该项目为国家重点研发项目，作为主要参与人员，负责该项目的
+            特殊生物X射线特征提取与识别工作。通过该项目学习到的技术有：
+            Faster-RCNN、YOLO、RandomForest、Pytorch等}
         \cvitem{2018 -- 2019}{基于Java开发电商项目系统}{个人自主研发}
-            {该项目采用分布式微服务架构，分为众多子系统。使用到的技术有SpringBoot、
-            SpringCloud、Maven、Flask、Spark等}
+            {该项目采用分布式微服务架构，并将其分为众多子系统。通过该
+            项目学习到的技术有：Hadoop、SpringBoot、SpringCloud、
+            Maven、Flask、Spark等}
     \end{cvtable}
 
 \cvsection{所持证书}
     \begin{cvtable}
-        \cvitem{2013年}{机动车驾驶证C1}{}{}
         \cvitem{2017年}{“蓝桥杯”省赛三等奖}{}{}
-        \cvitem{2018年}{上海海事大学校级三等奖}{}{}
-        \cvitem{2018年}{IEEE生物特征冬令营优秀学员}{}{}
-        \cvitem{2019年}{人工智能大会小车竞赛一等奖}{}{}
+        \cvitem{2019年}{IEEE生物特征冬令营优秀学员}{}{}
+        \cvitem{2019年}{人工智能开发者大会挑战赛一等奖}{}{}
     \end{cvtable}
 
 \cvsection{个人评价}

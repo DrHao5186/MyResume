@@ -128,7 +128,7 @@
 % \titleformat{<command>}[<shape>]{<format>}{<label>}{<sep>}{<before>}[<after>]
 \newcommand*{\cvsection}[1]{\section*{#1}}
 \titleformat{\section}%
-	{\color{sectioncolor}\normalfont\bfseries\large}{}{0pt}{}
+	{\color{sectioncolor}\normalfont\bfseries\LARGE}{}{0pt}{}
 % grey subsection style for right column
 \titleformat{\subsection}%
 	{\color{subsectioncolor}\normalfont\large}{}{0pt}{}
@@ -147,8 +147,6 @@
 \newcommand*{\cvprofilepic}[1]{\renewcommand{\cvprofilepic}{#1}}
 \newcommand*{\cvname}[1]{\renewcommand{\cvname}{#1}}
 \newcommand*{\cvjobtitle}[1]{\renewcommand{\cvjobtitle}{#1}}
-\newcommand*{\cvbirthday}[1]{\renewcommand{\cvbirthday}{#1}}
-\newcommand*{\cvaddress}[1]{\renewcommand{\cvaddress}{#1}}
 \newcommand*{\cvphone}[1]{\renewcommand{\cvphone}{#1}}
 \newcommand*{\cvmail}[1]{\renewcommand{\cvmail}{#1}}
 \newcommand*{\cvlocation}[1]{\renewcommand{\cvlocation}{#1}}
@@ -197,8 +195,6 @@
 % table with personal information on top sidebar on first page
 \newcommand{\personaltable}{%
 	\begin{personal}[0.6em]
-		\circleicon{\faInfo}            & \cvbirthday \\
-		\circleicon{\faLocationArrow}   & \cvaddress \\
 		\circleicon{\faPhone}           & \cvphone \\
 		\circleicon{\faAt}              & \cvmail \\
 		\circleicon{\faMapMarker}       & \cvlocation \\
